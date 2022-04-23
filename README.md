@@ -16,3 +16,10 @@ Express.js  Node Library - <https://expressjs.com/>
 # Acknowledgments
 - Abdullah Al Hilfi - Tutor <https://github.com/abjj1999>
 - Junghoon Yoon - Instructor <https://github.com/juhuyoon/Junghoon_Yoon_JavaS1>
+
+
+# Githb Information
+Repo <https://github.com/Jaspertena/NoteTaker>
+
+[Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.] 
+(./Assets/NoteTaker.png)
