@@ -10,7 +10,9 @@ const app = express();
 const PORT = 3001;
 // directs to the public folder where the client side files are stored
 app.use(express.static('public'));
+//allow use of the json file brought in from express  
 app.use(express.json())
+
 app.use(express.urlencoded({
     extended: true,
 }))
@@ -28,7 +30,7 @@ app.get('/api/notes', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
     const note = req.body
-    // res.sendFile(path.join(__dirname, 'db/db.json'))
+
 data.push(note);
     writeFileSync("./db/db.json", JSON.stringify(data));
     res.sendFile(path.join(__dirname, './db/db.json'))
